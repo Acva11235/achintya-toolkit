@@ -3,7 +3,7 @@ def preprocess_images(data_directory, except_extensions=[], remove=True, subdire
     import cv2
     import imghdr
 
-    valid_extensions = ["jpg", "jpeg", "png", "bmp"]
+    valid_extensions = ["jpg", "jpeg", "png", "bmp", "tiff"]
 
     if(subdirectories):
 

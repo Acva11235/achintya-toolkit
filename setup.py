@@ -25,3 +25,5 @@ setup(
 
 #python setup.py sdist bdist_wheel
 #twine upload dist/*
+#set username to "__token__"
+#copy API text from "C:\Users\Lenevo\#Achintya\tokens\pypi\API.txt"
